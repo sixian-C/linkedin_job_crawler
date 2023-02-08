@@ -20,6 +20,9 @@ LinkedIn Job Crawler is a tool that allows you to easily scrape job postings fro
 3. Set your LinkedIn account credentials in `config.yaml`
 4. Run the script
 
+## Showcase
+![scrape result](img/result.png)
+
 ## Contributing
 
 We welcome contributions from the community. If you find a bug or have an idea for a new feature, feel free to open an issue or create a pull request.
