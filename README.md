@@ -21,6 +21,7 @@ LinkedIn Job Crawler is a tool that allows you to easily scrape job postings fro
 4. Run the script
 
 ## Showcase
+
 ![scrape result](img/result.png)
 
 ## Contributing
