@@ -15,7 +15,7 @@ LinkedIn Job Crawler is a tool that allows you to easily scrape job postings fro
 ## Usage
 
 1. Clone the repository
-   `git clone https://github.com/[YourUsername]/linkedin-job-crawler.git`
+   `git clone https://github.com/sixian-C/linkedin_job_crawler.git`
 2. Install the required libraries
 3. Set your LinkedIn account credentials in `config.yaml`
 4. Run the script

@@ -34,7 +34,7 @@ time.sleep(1)  # wait for one second  so the page doesn't flink
 driver.find_element(
     "xpath", '//*[@id="organic-div"]/form/div[3]/button').click()
 
-# go to data scientist job page
+# go to job page, the url here is data scientist job posting. Replace with the job you want to scrape.
 driver.get("https://www.linkedin.com/jobs/search/?currentJobId=3459267979&keywords=data%20scientist&refresh=true")
 
 # Get all links for these offers
@@ -42,7 +42,7 @@ links = []
 # Navigate 13 pages
 print('Links are being collected now.')
 try:
-    for page in range(2, 10): # how many linkedin job pages the crawler will go through
+    for page in range(2, 10):  # how many linkedin job pages the crawler will go through
         time.sleep(2)
 
         jobs_block = driver.find_element(
